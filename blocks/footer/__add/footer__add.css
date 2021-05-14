@@ -1,0 +1,10 @@
+.footer__add {
+  padding: 14px 40px 11px 40px ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  background-image: -moz-linear-gradient( 90deg, rgb(173,139,99) 0%, rgb(78,44,30) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(173,139,99) 0%, rgb(78,44,30) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(173,139,99) 0%, rgb(78,44,30) 100%);
+}

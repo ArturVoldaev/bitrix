@@ -1,0 +1,33 @@
+.header__warp {
+  margin: auto;
+  min-width: 115px;
+  min-height: 40px;
+  display: flex;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid #77470b;
+  border-radius: 5px 0px 0px 5px;
+}
+.header__warp:hover {
+  background-color: #f7e7c4 ;
+}
+.header__warp:hover .header__submenu-personal {
+  display: block;
+}
+.header__warp:hover .header__menu-link {
+  color: rgb(69, 37, 10);
+  background-image: -moz-linear-gradient( 90deg, rgb(250,237,199) 0%, rgb(234,207,143) 13%, rgb(232,196,120) 58%, rgb(255,249,224) 96%, rgb(255,249,224) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(250,237,199) 0%, rgb(234,207,143) 13%, rgb(232,196,120) 58%, rgb(255,249,224) 96%, rgb(255,249,224) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(250,237,199) 0%, rgb(234,207,143) 13%, rgb(232,196,120) 58%, rgb(255,249,224) 96%, rgb(255,249,224) 100%);
+  border-radius: 5px;
+}
+.header__warp:nth-child(3) {
+  border-right: none;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.header__warp:nth-child(2) {
+  border-radius: 0px 0px 0px 0px;
+}

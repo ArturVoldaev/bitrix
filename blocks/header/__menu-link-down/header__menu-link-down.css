@@ -1,0 +1,9 @@
+.header__menu-link-down {
+  padding-left: 10px;
+  text-decoration: none;
+  text-align: start;
+  font-size: 14px;
+  font-family: "Verdana", Arial, sans-serif;
+  color: rgb(69, 37, 10);
+  line-height: 2.286;
+}

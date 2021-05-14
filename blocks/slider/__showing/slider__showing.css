@@ -1,0 +1,27 @@
+.slider__showing {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  z-index: 1;
+  transition: all 750ms linear;
+  background-image: url(../../../images/slider-666.png);
+  background-size: cover;
+}
+  .slider__showing:nth-child(2) {
+    background-image: url(../../../images/slider-2.png);
+  }
+  .slider__showing:nth-child(3) {
+    background-image: url(../../../images/slider-3.png);
+  }
+  .slider__showing:nth-child(4) {
+    background-image: url(../../../images/slider-4.png);
+  }
+  .slider__showing:nth-child(5) {
+    background-image: url(../../../images/slider-5.png);
+  }
+  .slider__showing:nth-child(6) {
+    background-image: url(../../../images/slider-6.png);
+  }

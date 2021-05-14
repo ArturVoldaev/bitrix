@@ -1,0 +1,30 @@
+.search__option-select-style {
+  width: 200px;
+  height: 30px;
+  appearance:none;
+  background-repeat:no-repeat;
+	background-position:right 0px;
+  background-image: url(../../../images/123.png);
+  background-color: #ffffff;
+  font-size: 18px;
+  font-family: "Verdana" , Arial, sans-serif;
+  color: rgb(69, 37, 10);
+  line-height: 1.2;
+  text-shadow: 0px 1px 0px rgba(17, 17, 26, 0.46);
+  padding: 0px 0px 0px 14px;
+  border: 1px solid #ae721d;
+}
+.search__option-select-style:active {
+  border: 1px solid #ae721d;
+}
+
+.search__option-select-style:target{
+  border: 1px solid #ae721d;
+}
+.search__option-select-style:active{
+  border: 1px solid #ae721d;
+}
+
+.search__option-select-style:hover{
+  cursor: pointer;
+}

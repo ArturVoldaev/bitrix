@@ -1,0 +1,5 @@
+.aticle__title-container {
+  display: block;
+  flex-direction: row;
+  justify-content: space-between;
+}

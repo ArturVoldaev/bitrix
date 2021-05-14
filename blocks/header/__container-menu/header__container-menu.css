@@ -1,0 +1,8 @@
+.header__container-menu {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  background: -moz-linear-gradient(top, #4e2c1e, #fFFFFF);
+  background: -webkit-linear-gradient(top, #4e2c1e, #fFFFFF);
+}

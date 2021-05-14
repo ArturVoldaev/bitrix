@@ -1,0 +1,7 @@
+.table {
+  display: flex;
+  min-width: 880px;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  justify-content: center;
+}

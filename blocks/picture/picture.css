@@ -1,0 +1,9 @@
+.picture {
+  padding: 45px 70px 0 70px;
+  max-width: 1024px;
+  height: 190px;
+  display: grid;
+  grid-template-columns: repeat(4, min-content);
+  gap: 0px 25px;
+  justify-content: space-between;
+}

@@ -1,0 +1,7 @@
+.slider__button-active {
+  width: 18px;
+  height: 18px;
+  background-image: url(../../../images/radio-button-active.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}

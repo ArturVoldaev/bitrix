@@ -1,0 +1,10 @@
+
+@font-face {
+  font-family: 'book-antiqua';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(./book-antiqua.woff2) format("woff2"),
+       url(./book-antiqua.woff) format("woff");
+}
+

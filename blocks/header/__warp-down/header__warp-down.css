@@ -1,0 +1,7 @@
+.header__warp-down {
+  max-width: 100%;
+  height: 30px;
+}
+.header__warp-down:hover {
+  background-color: #d8af75 ;
+}

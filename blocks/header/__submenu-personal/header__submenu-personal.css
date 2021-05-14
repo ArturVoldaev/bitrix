@@ -1,0 +1,14 @@
+.header__submenu-personal {
+  position: absolute;
+  left: 0px;
+  top: 100%;
+  background-color: #f7e7c4;
+  min-width: 192px;
+  display: none;
+  flex-direction: column;
+  list-style: none;
+  padding-left: 0px;
+  z-index: 50;
+  text-align: start;
+  border: 1px solid #bfa485;
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Подобрать персонал</title>
+</head>
+<body class="body">
+
+  <main class="main main_personal">
+    <header class="header">
+      <div class="header__container-contact-button">
+        <p class="contact">8 (4872) 31-13-45</p>
+        <form class="header__buttons-place">
+          <button class="header__button">Оставить заявку</button>
+          <button class="header__button">Отправить резюме</button>
+        </form>
+      </div>
+      <div class="header__container-menu">
+        <nav>
+          <ul class="header__menu">
+            <li class="header__warp"><a class="header__menu-link" href="">Главная</a></li>
+            <li class="header__warp"><a class="header__menu-link" href="">Подобрать персонал</a>
+              <ul class="header__submenu-personal">
+                <li class="header__warp-down"><a class="header__menu-link-down" href="">О нас</a></li>
+                <li class="header__warp-down"><a class="header__menu-link-down" href="">Задать вопрос</a></li>
+                <li class="header__warp-down"><a class="header__menu-link-down" href="">Это интересно</a></li>
+                <li class="header__warp-down"><a class="header__menu-link-down" href="">Отзывы</a></li>
+              </ul>
+            </li>
+            <li class="header__warp"><a class="header__menu-link" href="">Цены</a></li>
+          </ul>
+        </nav>
+        <img class="header__logo" src="./images/logo__company.png" alt="Изображение лого">
+        <nav>
+          <ul class="header__menu">
+            <li class="header__warp"><a class="header__menu-link" href="">  Оставить   заявку</a></li>
+            <li class="header__warp"><a class="header__menu-link" href="">Оставить вакансию</a>
+            <li class="header__warp"><a class="header__menu-link" href="">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="slider">
+      <ul class="slider__container">
+        <li class="slider__slide slider__showing" id="picture-1"></li>
+        <li class="slider__slide" id="picture-2"></li>
+        <li class="slider__slide" id="picture-3"></li>
+        <li class="slider__slide" id="picture-4"></li>
+        <li class="slider__slide" id="picture-5"></li>
+        <li class="slider__slide" id="picture-6"></li>
+      </ul>
+      <div class="slider__buttons">
+        <a class="slider__button slider__button_active" href="#" id="button-1"></a>
+        <a class="slider__button" href="#" id="button-2"></a>
+        <a class="slider__button" href="#" id="button-3"></a>
+        <a class="slider__button" href="#" id="button-4"></a>
+        <a class="slider__button" href="#" id="button-5"></a>
+        <a class="slider__button" href="#" id="button-6"></a>
+      </div>
+    </section>
+    <section class="input">
+      <h2 class="input__title">Подобрать персонал</h2>
+      <div class="search">
+        <div class="search__option-place">
+          <p class="search__option-title">Показать только</p>
+          <select class="search__option-select-style">
+            <option value="Лимон">Няня</option>
+            <option value="Банан">Няня</option>
+            <option value="Яблоко">Няня</option>
+          </select>
+        </div>
+        <article class="search__case">
+          <p class="search__property">Стаж</p>
+          <p class="search__property">от</p>
+          <input size="1" placeholder="1" class="search__imput">
+          <p class="search__property">до</p>
+          <input size="1" placeholder="30" class="search__imput">
+          <p class="search__property">лет</p>
+          <p class="search__property">Возраст</p>
+          <p class="search__property">от</p>
+          <input size="1" placeholder="25" class="search__imput">
+          <p class="search__property">до</p>
+          <input size="1" placeholder="65" class="search__imput">
+          <p class="search__property">лет</p>
+        </article>
+        <button class="search__button">Подобрать</button>
+      </div>
+    </section>
+    <section class="table-place">
+      <table class="table" >
+      <tr class="table__heading">
+          <td class="table__name">фио</td>
+          <td class="table__job">должность</td>
+          <td class="table__age">возраст</td>
+          <td class="table__experience">стаж работы</td>
+      </tr>
+      <tr class="table__content table__content_white table__content_border">
+        <td class="table__name table__name_border-non table__name_bold-name">Лопухова Надежда Александровна</td>
+        <td class="table__job table__job_border-non">Гувернантка</td>
+        <td class="table__age table__age_border-non">45</td>
+        <td class="table__experience table__experience_border-non">15 лет</td>
+      </tr>
+      <tr class="table__content">
+          <td class="table__name">Лопухова Надежда Александровна</td>
+          <td class="table__job">Гувернантка</td>
+          <td class="table__age">45</td>
+          <td class="table__experience">15 лет</td>
+      </tr>
+      <tr class="table__content table__content_white table__content_border">
+        <td class="table__name table__name_border-non table__name_bold-name">Лопухова Надежда Александровна</td>
+        <td class="table__job table__job_border-non">Гувернантка</td>
+        <td class="table__age table__age_border-non">45</td>
+        <td class="table__experience table__experience_border-non">15 лет</td>
+      </tr>
+      <tr class="table__content">
+          <td class="table__name table__name_bold-name">Лопухова Надежда Александровна</td>
+          <td class="table__job">Гувернантка</td>
+          <td class="table__age">45</td>
+          <td class="table__experience">15 лет</td>
+      </tr>
+      <tr class="table__content table__content_white table__content_border">
+        <td class="table__name table__name_border-non">Лопухова Надежда Александровна</td>
+        <td class="table__job table__job_border-non">Гувернантка</td>
+        <td class="table__age table__age_border-non">45</td>
+        <td class="table__experience table__experience_border-non">15 лет</td>
+      </tr>
+      <tr class="table__content">
+          <td class="table__name table__name_bold-name">Лопухова Надежда Александровна</td>
+          <td class="table__job">Гувернантка</td>
+          <td class="table__age">45</td>
+          <td class="table__experience">15 лет</td>
+      </tr>
+      <tr class="table__content table__content_white table__content_border">
+        <td class="table__name table__name_border-non table__name_bold-name">Лопухова Надежда Александровна</td>
+        <td class="table__job table__job_border-non">Гувернантка</td>
+        <td class="table__age table__age_border-non">45</td>
+        <td class="table__experience table__experience_border-non">15 лет</td>
+      </tr>
+      <tr class="table__content">
+          <td class="table__name table__name_bold-name">Лопухова Надежда Александровна</td>
+          <td class="table__job">Гувернантка</td>
+          <td class="table__age">45</td>
+          <td class="table__experience">15 лет</td>
+      </tr>
+      <tr class="table__content table__content_white table__content_border">
+        <td class="table__name table__name_border-non table__name_bold-name">Лопухова Надежда Александровна</td>
+        <td class="table__job table__job_border-non">Гувернантка</td>
+        <td class="table__age table__age_border-non">45</td>
+        <td class="table__experience table__experience_border-non">15 лет</td>
+      </tr>
+      </table>
+    </section>
+    <section class="info">
+      <h2 class="info__title">Заголовок</h2>
+      <p class="info__sub-title">Наличие в доме обслуживающего  персонала - водителя, няни,
+        гувернантки, горничной, домработницы - это вовсе не дань моде
+        и не причуды избалованных неждано свалившимся богатством нуворишней.
+        Напротив, услугами сиделки или няни пользуются сегодня те,
+        кто отлично знает цену деньгам и своему времени.
+        Наличие в доме обслуживающего  персонала - водителя, няни,
+        гувернантки, горничной, домработницы - это вовсе не дань моде
+        и не причуды избалованных неждано свалившимся богатством нуворишней.
+        Напротив, услугами сиделки или няни пользуются сегодня те,
+        кто отлично знает цену деньгам и своему времени.
+      </p>
+      <p class="info__sub-title">Наличие в доме обслуживающего  персонала - водителя, няни,
+        гувернантки, горничной, домработницы - это вовсе не дань моде
+        и не причуды избалованных неждано свалившимся богатством нуворишней.
+        Напротив, услугами сиделки или няни пользуются сегодня те,
+        кто отлично знает цену деньгам и своему времени. Люди, для которых важно не только вырастить ребенка,
+        но и создать основу будущего благосостояния, построив свою карьеру - вот основная категория заказчиков,
+        которые ежедненно пользуются услугами нашей кампании по подбору домашнего персонала.
+        Заказ няни, сиделки или домработницы является благом не только для женщины, которая имеет возможность
+        строить свою карьеру или получить, наконец передышку от выполнения бесконечных домашних обязанностей,
+        но и для всех остальных членов семьи, которые могут провести вместе свободный вечер или выходные.
+        А доступные цены, которые устанавливает на свои услуги наша компания, и предлогаемый нами широкий выбор различных
+        категорий домашнего персонала делают исключительно удобным и, главное безопасным процесс поиска няни для малыша,
+        сиделки для пожилых членов семьи или домработницы для квартиры или загородного особняка.
+      </p>
+      <p class="info__sub-title">Наличие в доме обслуживающего  персонала - водителя, няни,
+        гувернантки, горничной, домработницы - это вовсе не дань моде
+        и не причуды избалованных неждано свалившимся богатством нуворишней.
+        Напротив, услугами сиделки или няни пользуются сегодня те,
+        кто отлично знает цену деньгам и своему времени. Люди для которых важно не только вырастить ребенка, но и создать основу.
+      </p>
+    </section>
+    <footer class="footer">
+      <nav>
+        <div class="footer__menu">
+          <a class="footer__link" href="#">Главная</a>
+          <a class="footer__link" href="#">Подобрать персонал</a>
+          <a class="footer__link" href="#">Цены</a>
+          <a class="footer__link" href="#">Главная</a>
+          <a class="footer__link" href="#">Подобрать персонал</a>
+          <a class="footer__link" href="#">Цены</a>
+        </div>
+        <div class="footer__add">
+          <p class="footer__contact">8 (4872) 31-13-45</p>
+          <p class="footer__contact-studio">Разработка и продвижение сайта компанией «Юни Веб» - <img class="logo" src="./images/logo-UW.png" alt="Логотип студии"></p>
+        </div>
+    </nav>
+    </footer>
+  </main>
+  <script src="./scripts/script.js"></script>
+</body>
+</html>

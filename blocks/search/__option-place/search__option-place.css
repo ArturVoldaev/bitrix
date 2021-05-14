@@ -1,0 +1,6 @@
+.search__option-place {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  margin: 0px 0px 0px 80px;
+}

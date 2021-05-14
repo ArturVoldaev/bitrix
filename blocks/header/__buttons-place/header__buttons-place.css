@@ -1,0 +1,8 @@
+.header__buttons-place {
+  display: flex;
+  width: 175px;
+  flex-direction: column;
+  padding: 7px 0 7px;
+}
+
+

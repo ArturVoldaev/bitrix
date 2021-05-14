@@ -1,0 +1,10 @@
+.aticle {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 924px;
+  background-image: url(../../images/super-decore-99.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}

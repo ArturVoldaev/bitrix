@@ -1,0 +1,10 @@
+.search {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 125px;
+  background-image: url(../../images/place-input.png);
+  background-repeat: no-repeat ;
+  object-fit: contain;
+  align-items: center;
+}

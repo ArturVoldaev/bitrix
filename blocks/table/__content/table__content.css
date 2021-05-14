@@ -1,0 +1,9 @@
+.table__content {
+  max-width: 100%;
+  margin: 0px;
+  font-size: 15px;
+  font-family: "Verdana", Arial, Helvetica, sans-serif;
+  color: rgb(101, 79, 61);
+  line-height: 1.2;
+}
+

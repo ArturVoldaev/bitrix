@@ -1,0 +1,8 @@
+.slider__container {
+  position: relative;
+  max-width: 1024px;
+  height: 325px;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+ }

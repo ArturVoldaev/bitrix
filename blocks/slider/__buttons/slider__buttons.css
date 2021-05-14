@@ -1,0 +1,7 @@
+.slider__buttons {
+  padding-top: 15px;
+  display: grid;
+  gap: 0px 20px;
+  grid-template-columns: repeat(6, min-content);
+  justify-content: center;
+}

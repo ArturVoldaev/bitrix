@@ -1,0 +1,10 @@
+.footer__contact {
+  font-size: 19px;
+  font-family: "Cormorant Garamond", Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  margin: 0px;
+}
+.footer__contact :hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,10 @@
+.info__sub-title {
+  margin: 0px;
+  font-size: 14px;
+  font-family: "Arial", Arial, sans-serif;
+  color: rgb(78, 44, 30);
+  line-height: 1.2;
+}
+.info__sub-title:nth-child(3) {
+  margin: 20px 0 20px 0;
+}
